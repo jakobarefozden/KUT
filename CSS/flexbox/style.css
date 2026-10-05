@@ -4,11 +4,26 @@ body {
 }
 
 
-header {
-    text-align: center;
+
+
+nav {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
 
+nav a {
+    color: black;
+}
 
+nav a:hover {
+    color: blue;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px;
+}
 h1 {
     color: darkblue;
 }
@@ -54,4 +69,11 @@ img {
 
 footer {
     text-align: center;
+}
+
+.kort-container {
+    display: flex;
+    GAP: 20px;
+    JUSTIFY-CONTENT: SPACE-BETWEEN;
+    FLEX-WRAP: WRAP;
 }
