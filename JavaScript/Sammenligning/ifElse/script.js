@@ -9,7 +9,7 @@ if (alder >= 18) {
 
         
 navn = "Kari";
-alder = 20;
+alder = 15;
 if (alder >= 18) {
         console.log(navn + " er myndig");
     } else {
